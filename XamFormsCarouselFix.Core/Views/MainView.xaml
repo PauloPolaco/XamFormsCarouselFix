@@ -82,6 +82,7 @@
                         remove the <c:Carousel> and run on the Android version
                         of the app.  Swipe left and right to see how the templates 
                         bleed over the bottom Indicator.
+							https://github.com/alexrainman/CarouselView/issues/185
                  Fix:   Removes the CarouselViewControl's issue of not rendering
                         the control's view height on Android during first load.
                  Also:  The problem might lye in the Android renderer's 

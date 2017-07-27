@@ -2,7 +2,9 @@
 Fixes the issue of _CarouselViewControl_ not rendering the control's view height correctly on _Android_ during first load.
 
 ### Description of Defect
-The _CarouselViewControl_ has an issue of not rendering the control's view height on _Android_ during first load. The control's content bleeds into and past the _Indicator_ which is situated at the bottom of the control. The bug only occurs when the control is on the primarily loaded page.  The bug does not occur during second loading of the page or when the control is situated on a secondary page.
+The _CarouselViewControl_ has an issue of not rendering the control's view height on _Android_ during first load. The control's content bleeds into and past the _Indicator_ which is situated at the bottom of the control. The bug only occurs when the control is on the primarily loaded page.  The bug does not occur during second loading of the page or when the control is situated on a secondary page.  
+
+[alexrainman/CarouselView GitHub Issue #185](https://github.com/alexrainman/CarouselView/issues/185)
 
 ### Bug Repro
 Uncomment the _<xamFormsCarousel:CarouselViewControl>_, remove the _<c:Carousel>_ and run on the _Android_ version of the app.  Swipe left and right to see how the templates bleed over the bottom _Indicator_.
